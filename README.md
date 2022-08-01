@@ -1,1 +1,1 @@
-# vehi-registration-application
+# veh-registration-application
