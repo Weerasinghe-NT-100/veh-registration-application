@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeMain"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/homeMain" />
+        <item
+            android:id="@+id/myProfile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/myProfile" />
+        <item
+            android:id="@+id/Ratings"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="@string/Ratings" />
+<!--        <item-->
+<!--            android:id="@+id/foodCategory"-->
+<!--            android:icon="@drawable/ic_baseline_fastfood_24"-->
+<!--            android:title="Food Categories" />-->
+<!--        <item-->
+<!--            android:id="@+id/addTocart"-->
+<!--            android:icon="@drawable/ic_baseline_add_shopping_cart_24"-->
+<!--            android:title="@string/AddToCart" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/foodDelivery"-->
+<!--            android:icon="@drawable/ic_baseline_directions_bike_24"-->
+<!--            android:title="@string/food_delivery" />-->
+<!--        <item-->
+<!--            android:id="@+id/payment"-->
+<!--            android:icon="@drawable/ic_baseline_account_balance_wallet_24"-->
+<!--            android:title="@string/payment" />-->
+    </group>
+</menu>
